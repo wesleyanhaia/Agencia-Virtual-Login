@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 98vw;
+    background-color: rgb(248, 248, 248);
+    height: 90vh;
+    
+}
+
+header{
+    display: flex;
+    height: 75px;
+    width: 98vw;
+
+}
+
+
+
+#cabeca1{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    width: 49vw;
+    height: 75px;
+    background-color: #022840;
+}
+
+#cabeca2{
+    background-color:rgb(248, 248, 248);
+    width: 49vw;
+    height: 75px;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    height: 90vh;
+    
+}
+
+/*/--------------------------------------CAIXA AZUL------------------------------/*/
+#caixaazul{
+    width: 49vw;
+    background-color: #022840;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+img{
+    margin-left: 25%;
+    height: 55px;
+    width: 95px;
+}
+
+#caixa-botoes{
+    display: flex;
+    flex-direction: column;
+    width: clamp(250px, 80%, 350px); 
+    gap: 40px;
+    
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font: normal normal normal 15px'Roboto';
+    border-radius: 20px;
+    border: none;
+    color: #022840;
+    background-color: #ffffff;
+    margin: 4px;
+    
+    
+}
+
+button i{
+    margin: 10px;
+}
+
+/*/--------------------------------------CAIXA BRANCA------------------------------/*/
+
+#caixabranca{
+    width: 49vw;
+    background-color: rgb(248, 248, 248);
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #022840;
+
+}
+/*/DUAS DIVS, UMA QUE PEGA OS BOTOES DE REDE SOCIAL, E A OUTRA Q PEGA AS CAIXAS DE TEXTO/*/
+
+.botao-e-texto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 1px;
+    width: clamp(250px, 100%, 315px);
+
+    
+}
+/*/------------------------FACEBOOK E GMAIL------------------/*/
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #022840;
+    font-family: 'Roboto', sans-serif;
+    color: #022840;
+    font-size: 15px;
+    width: clamp(250px, 100%, 315px);
+}
+
+.social i{
+    color: #1773EA;
+}
+
+.social span i{
+    color: #E7504E;
+}
+
+/*/-----------------------------CAIXAS DE TEXTO E BOTAO--------------------------/*/
+label{
+    margin-top: 20px;
+    font: normal normal bold 16px/21px 'Roboto';
+    font-size: 14px;
+    color: #022840;;
+
+}
+
+input{
+    height: 50px;
+    width: clamp(250px, 100%, 300px);
+    border-radius: 10px;
+    margin-top: 8px;
+    border: 1px solid #022840;
+    padding-left: 15px ;
+    outline: none;
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: clamp(100px, 100%, 315px);
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #022840;
+    color: #ffffff;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/*/----------------------LINK-----------------------/*/
+#lincagem{
+    width: 370px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{
+    color: #022840;
+    font: normal normal bold 16px/21px 'Roboto';
+    margin-right: 5px;
+
+}
+
+#lincagem > i{
+    color: #022840;
+}
+
+
+
